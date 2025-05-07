@@ -30,12 +30,12 @@ public class AccountsPageTest extends BaseTest {
     public void accPageSearchFieldExistTest(){
         Assert.assertTrue(accountsPage.isSearchFieldExist());
     }
-//    @Test
-//    public void accPageHeaderListsVerificationTest(){
-//        List<String> actualAccountHeaderLists = accountsPage.getAccountHeaderLists();
-//        System.out.println(actualAccountHeaderLists);
-//        Assert.assertEquals(actualAccountHeaderLists, Constants.expectedHeaderLists);
-//
-//    }
+    @Test
+    public void accPageHeaderListsVerificationTest(){
+        List<String> actualAccountHeaderLists = accountsPage.getAccountHeaderLists();
+        System.out.println(actualAccountHeaderLists);
+        Assert.assertEquals(actualAccountHeaderLists, Constants.expectedHeaderLists);
+
+    }
 
 }
